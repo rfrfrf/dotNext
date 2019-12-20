@@ -62,7 +62,7 @@ But this is not all features of this library. Read more [here](./features/thread
 
 # DotNext.Net.Cluster
 <a href="https://www.nuget.org/packages/dotnext.net.cluster/absoluteLatest"><img src="https://img.shields.io/nuget/v/dotnext.net.cluster.svg?logo=NuGet"></a><br/>
-Provides rich framework for building [clustered microservices](https://en.wikipedia.org/wiki/Computer_cluster) based on network consensus and distributed messaging. Additionally, the library provides transport-agnostic implementation of [Raft Consensus Algoritm](https://raft.github.io/) that can be adopted for any communication protocol as well as high-performance Write Ahead Log used for log replication.
+Provides rich framework for building [clustered microservices](https://en.wikipedia.org/wiki/Computer_cluster) based on network consensus and distributed messaging. It provides transport-agnostic implementation of [Raft Consensus Algoritm](https://raft.github.io/) that can be adopted for any communication protocol and high-performance persistent Write Ahead Log suitable for general-purpose usage.
 
 # DotNext.AspNetCore.Cluster
 <a href="https://www.nuget.org/packages/dotnext.aspnetcore.cluster/absoluteLatest"><img src="https://img.shields.io/nuget/v/dotnext.aspnetcore.cluster.svg?logo=NuGet"></a><br/>
