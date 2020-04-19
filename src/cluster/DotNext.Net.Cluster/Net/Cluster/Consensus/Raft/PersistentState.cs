@@ -942,7 +942,7 @@ namespace DotNext.Net.Cluster.Consensus.Raft
                         }
                         else
                             break;
-                    result = reader.ReadAsync<LogEntry, ArraySegment<LogEntry>>(list.Slice(0, listIndex), list[0].SnapshotIndex, token);
+                    return await reader.ReadAsync<LogEntry, ArraySegment<LogEntry>>(list.Slice(0, listIndex), list[0].SnapshotIndex, token).ConfigureAwait(false);
                 }
             else if (snapshot.Length > 0)
             {
