@@ -39,10 +39,10 @@ All these things are implemented in 100% managed code on top of existing .NET St
 * [NuGet Packages](https://www.nuget.org/profiles/rvsakno)
 
 # What's new
-Release Date: 01-12-2020
+Release Date: 04-19-2020
 
-<a href="https://www.nuget.org/packages/dotnext.net.cluster/1.2.11">DotNext.Net.Cluster 1.2.11</a>
-* Ability to reconstruct internal state using `PersistentState.ReplayAsync` method
+<a href="https://www.nuget.org/packages/dotnext.net.cluster/1.2.12">DotNext.Net.Cluster 1.2.12</a>
+* Fixed bug in `PersistentState` class that can cause unpredictable results during replication
 
 Changelog for previous versions located [here](./CHANGELOG.md).
 

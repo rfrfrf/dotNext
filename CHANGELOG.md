@@ -1,6 +1,10 @@
 Release Notes
 ====
 
+# 04-19-2020
+<a href="https://www.nuget.org/packages/dotnext.net.cluster/1.2.12">DotNext.Net.Cluster 1.2.12</a>
+* Fixed bug in `PersistentState` class that can cause unpredictable results during replication
+
 # 01-12-2020
 <a href="https://www.nuget.org/packages/dotnext.net.cluster/1.2.11">DotNext.Net.Cluster 1.2.11</a>
 * Ability to reconstruct internal state using `PersistentState.ReplayAsync` method
